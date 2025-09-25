@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="syle.css">
+</head>
+<body>
+<!--<button class="bag-btn" onclick="alert('i am prasanta')"> add to bag</button>
+<button class="wish-button" onclick="alert('i am soumya')">wish list</button>
+    <button class="cart-btn" onclick="alert('i am sakti ')">cart</button>
+<h1 id="cart-summary"></h1>
+<h1 id ="wish-summary"></h1>
+<h1 id ="bag-summary"></h1>-->
+
+<div id="calculator">
+
+
+    <input type="text" id="display">
+    <div class="button-container">
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'%';
+        document.querySelector('#display').value=currentDisplay;">%</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'!';
+        document.querySelector('#display').value=currentDisplay;">!</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+':';
+        document.querySelector('#display').value=currentDisplay;">:</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'>';
+        document.querySelector('#display').value=currentDisplay;">></button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'1';
+        document.querySelector('#display').value=currentDisplay;">1</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'2';
+        document.querySelector('#display').value=currentDisplay;">2</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'3';
+        document.querySelector('#display').value=currentDisplay;">3</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'+';
+        document.querySelector('#display').value=currentDisplay;">+</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'4';
+        document.querySelector('#display').value=currentDisplay;">4</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'5';
+        document.querySelector('#display').value=currentDisplay;">5</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'6';
+        document.querySelector('#display').value=currentDisplay;">6</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'-';
+        document.querySelector('#display').value=currentDisplay;">-</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'7';
+        document.querySelector('#display').value=currentDisplay;">7</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'8';
+        document.querySelector('#display').value=currentDisplay;">8</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'9';
+        document.querySelector('#display').value=currentDisplay;">9</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'*';
+        document.querySelector('#display').value=currentDisplay;">*</button>
+
+        <button class="btn"onclick="currentDisplay=currentDisplay+'0';
+        
+        document.querySelector('#display').value=currentDisplay;"
+         >0</button>
+
+        <button class="btn"  onclick="currentDisplay='';
+        document.querySelector('#display').value=currentDisplay;">C</button>
+
+        <button class="btn"  onclick=" 
+        let result=eval(currentDisplay);
+        currentDisplay=result;
+        document.querySelector('#display').value=currentDisplay;">=</button>
+
+        <button class="btn" onclick="currentDisplay=currentDisplay+'/';
+        document.querySelector('#display').value=currentDisplay;">/</button>
+        <button class="btn1" onclick="
+        let  result1= Math.sqrt(currentDisplay);
+        currentDisplay=result;
+        document.querySelector('#display').value=currentDisplay;
+        ">#</button>
+    </div>
+</div>
+
+
+
+
+
+    </body>
+<script>
+let currentDisplay='';
+document.querySelector('#display').value=currentDisplay;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   // let cartQuantity=-4;
+   // document.querySelector('.cart-btn').addEventListener('click',function(){
+    //    cartQuantity++;
+      //  document.getElementById('cart-summary').innerText=`cart quantiy: ${cartQuantity}`;
+    //});
+    //let wishQuantitity=9;
+   // document.querySelector('.wish-button').addEventListener('click',function(){
+     //   wishQuantitity++;
+       // document.getElementById('.wish-button').innerText=`wish items: ${wishQuantitity}`;
+    //});
+    //let bagButton=0;
+    //document.querySelector('.bag-btn').addEventListener('click',function(){
+      //  bagButton++;
+        //document.getElementById('.bag-btn').innerText=`bag items: ${bagButton}`;
+    //});
+</script>
+</html>

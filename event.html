@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="event.css"/>
+</head>
+<body>
+    <button id="modeBtn" >button1</button>
+    
+</body>
+<script > 
+
+
+    let modeBtn=document.querySelector("#modeBtn");
+    let curMode="light";
+    modeBtn.addEventListener ("click",()=>{
+    if(curMode==="light"){
+        curMode="black";
+        document.querySelector("body").style.backgroundColor="black";
+    }
+    else{
+        curmode="light";
+         document.querySelector("body").style.backgroundColor="white";
+    }
+});
+</script>
+</html>
